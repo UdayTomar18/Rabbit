@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import register from '../Assets/register.webp';
+import register from '../assets/register.webp';
 const LogIn = () => {
     const[name,setName] = useState('');
     const [email, setEmail] = useState('');
